@@ -75,3 +75,5 @@ Tsrc/test/java/br/com/sanara/leilao/integration/controller/LeiloesControllerTest
 Tsrc/test/java/br/com/sanara/leilao/integration/repository/UsuarioRepositoryTest.java,8\1\81e8db9a69ebecae2a028061858e57df4484ef5a
 |
 Lsrc/test/java/br/com/sanara/leilao/integration/service/LanceServiceTest.java,7\a\7a7aa03f369afc644da490ebcae22d7aea0e1aa8
+b
+2src/test/java/acceptance/LeilaoCucumberRunner.java,a\c\acfcc2dd183b66f73f0b5c306200e10796d7a7e3

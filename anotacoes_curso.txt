@@ -1,0 +1,9 @@
+
+** Cucumber pode ser inicializado a partir do junit4 (@RunWith)
+** os arquivos .feature são analisados pelo Gherkin e Cucumber
+** Gerkin é uma linguagem para definir os .feature
+** Cucumber gera e roda os passos (steps) associados ao .feature
+** dentro do .feature escrevemos a funcionalidade e os critérios de aceitação
+** um critério de aceitação segue a estrutura de um teste (passos ou steps)
+** os passos são Given-When-Then ou Dado-Quando-Entao
+** cada passo será implementado por um método anotado (step)

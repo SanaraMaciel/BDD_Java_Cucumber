@@ -3,6 +3,7 @@ package acceptance.steps;
 import br.com.sanara.leilao.model.Lance;
 import br.com.sanara.leilao.model.Leilao;
 import br.com.sanara.leilao.model.Usuario;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
@@ -13,6 +14,7 @@ import org.junit.Assert;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class PropondoLanceSteps {
 
@@ -27,7 +29,7 @@ public class PropondoLanceSteps {
     }
 
     @After
-    public void tearDown(){
+    public void tearDown() {
         //System.out.println("after");
     }
 
@@ -80,13 +82,33 @@ public class PropondoLanceSteps {
 
     @Dado("um lance invalido de {double} reais e do usuario {string}")
     public void um_lance_invalido_de_reais(Double valor, String nomeUsuario) {
-        System.out.println(nomeUsuario);
-       this.lance = new Lance(new BigDecimal(valor));
+        //System.out.println(nomeUsuario);
+        this.lance = new Lance(new BigDecimal(valor));
     }
 
     @Entao("o lance nao e aceito")
     public void entao_o_lance_nao_e_aceito() {
         Assert.assertEquals(0, leilao.getLances().size());
     }
+
+    @Dado("dois lances")
+    public void dois_lances(DataTable dataTable) {
+        List<Map<String, String>> valores = dataTable.asMaps();
+        for (Map<String, String> mapa : valores) {
+            //System.out.println(mapa.keySet());
+            String valor = mapa.get("valor");
+            String nome = mapa.get("nomeUsuario");
+            Lance lance = new Lance(new Usuario(nome), new BigDecimal(valor));
+
+            this.lista.add(lance);
+        }
+    }
+
+    @Entao("o segundo lance nao e aceito")
+    public void o_segundo_lance_nao_e_aceito() {
+        Assert.assertEquals(1, leilao.getLances().size());
+        Assert.assertEquals(this.lista.get(0).getValor(), leilao.getLances().get(0).getValor());
+    }
+    
 
 }

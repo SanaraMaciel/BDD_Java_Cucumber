@@ -19,7 +19,8 @@ public class LeilaoStepsJava8 implements io.cucumber.java8.Pt{
             browser.seed();
             loginPage = browser.getLoginPage();
             leiloesPage = loginPage.realizaLoginComoFulano();
-        });
+        }
+        );
 
         Quando("acessa a pagina de novo leilao", () -> {
             novoLeilaoPage = this.leiloesPage.visitaPaginaParaCriarUmNovoLeilao();
@@ -34,7 +35,7 @@ public class LeilaoStepsJava8 implements io.cucumber.java8.Pt{
         });
 
         Entao("o novo leilao aparece na tabela", () -> {
-            this.leiloesPage.existe("PC Novo", "1500",  "fulano");
+            this.leiloesPage.existe("PC Novo", "1500",  "01/11/2023", "fulano");
             this.browser.clean();
         });
     }

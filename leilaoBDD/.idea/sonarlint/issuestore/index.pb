@@ -77,7 +77,5 @@ Tsrc/test/java/br/com/sanara/leilao/integration/repository/UsuarioRepositoryTest
 Lsrc/test/java/br/com/sanara/leilao/integration/service/LanceServiceTest.java,7\a\7a7aa03f369afc644da490ebcae22d7aea0e1aa8
 b
 2src/test/java/acceptance/LeilaoCucumberRunner.java,a\c\acfcc2dd183b66f73f0b5c306200e10796d7a7e3
-`
-0src/test/java/acceptance/PropondoLanceSteps.java,3\1\31d92fd72c8faa4ef81c38b8c59deadead852294
 f
 6src/test/java/acceptance/steps/PropondoLanceSteps.java,6\c\6c72f0cfe7b4a52013d89e3a54f41145899b844a

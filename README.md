@@ -10,3 +10,5 @@ Curso de BDD e Java: Behavior Driven Development com Cucumber
 * Testes E2E
 * Tags e Contextos
 * Steps com Lambda no Java8
+
+Documentação oficial do Cucumber: https://cucumber.io/docs/cucumber/api/?lang=java#tags

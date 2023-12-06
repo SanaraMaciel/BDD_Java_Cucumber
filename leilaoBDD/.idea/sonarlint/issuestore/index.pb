@@ -79,3 +79,15 @@ b
 2src/test/java/acceptance/LeilaoCucumberRunner.java,a\c\acfcc2dd183b66f73f0b5c306200e10796d7a7e3
 f
 6src/test/java/acceptance/steps/PropondoLanceSteps.java,6\c\6c72f0cfe7b4a52013d89e3a54f41145899b844a
+p
+@src/test/java/br/com/sanara/leilao/e2e/pages/BrowserFactory.java,0\6\0640d8b2844714a9324821e192757cfef6d81389
+i
+9src/test/java/br/com/sanara/leilao/e2e/pages/Browser.java,2\b\2b8a30ebd3e8687541d2e51a80a1e2ddb56003cf
+v
+Fsrc/test/java/br/com/sanara/leilao/e2e/pages/DetalhesDoLeilaoPage.java,6\c\6cade76ee0d301dc619af89e4fa21de342943863
+k
+;src/test/java/br/com/sanara/leilao/e2e/pages/LoginPage.java,1\d\1df8d6a011a3eec655fc679e6e1e67e0dd98f81c
+^
+.src/test/java/acceptance/steps/LoginSteps.java,4\9\499ef9e21e271f803a61dc1c7f621dcf047371ac
+m
+=src/test/java/br/com/sanara/leilao/e2e/pages/LeiloesPage.java,7\8\789fc0a21ae0b736597fa55e6490d9b39ba8a27f

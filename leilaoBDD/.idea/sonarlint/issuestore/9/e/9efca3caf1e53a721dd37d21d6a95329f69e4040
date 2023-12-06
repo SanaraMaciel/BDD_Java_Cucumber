@@ -3,3 +3,13 @@ c
 java:S1192'"HDefine a constant instead of duplicating this literal "usuario" 7 times.(ÕÀ³Şüÿÿÿÿ
 _
 java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ıºº­Â1
+]
+java:S4684$"@Replace this persistent entity with a simple POJO or DTO object.(‹°Ÿ›8²µ•€Ä1
+L
+java:S18748"/Remove this use of "Usuario"; it is deprecated.(ùââ8¼µ•€Ä1
+]
+java:S4684="@Replace this persistent entity with a simple POJO or DTO object.(Ø™©Á8¿µ•€Ä1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8Çµ•€Ä1
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8Èµ•€Ä1

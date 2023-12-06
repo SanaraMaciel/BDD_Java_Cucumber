@@ -109,6 +109,6 @@ public class PropondoLanceSteps {
         Assert.assertEquals(1, leilao.getLances().size());
         Assert.assertEquals(this.lista.get(0).getValor(), leilao.getLances().get(0).getValor());
     }
-    
+
 
 }

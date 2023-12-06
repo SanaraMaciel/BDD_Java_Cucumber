@@ -89,3 +89,9 @@ k
 .src/test/java/acceptance/steps/LoginSteps.java,4\9\499ef9e21e271f803a61dc1c7f621dcf047371ac
 m
 =src/test/java/br/com/sanara/leilao/e2e/pages/LeiloesPage.java,7\8\789fc0a21ae0b736597fa55e6490d9b39ba8a27f
+_
+/src/test/java/acceptance/steps/LeilaoSteps.java,f\1\f10c69d2992d8700c7c002e79a33f09ce75e14f6
+d
+4src/test/java/acceptance/steps/LeilaoStepsJava8.java,b\c\bccdff602d30dceee450e4c38c63c67571e1c15c
+p
+@src/test/java/br/com/sanara/leilao/e2e/pages/NovoLeilaoPage.java,c\f\cfd283e1cfb1ff08510ecf64fac6015f67c3e65c
